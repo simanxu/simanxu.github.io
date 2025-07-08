@@ -113,6 +113,13 @@ def extract_author_info(config):
         
         # Add social profiles
         profiles = []
+
+        if author.get('employer'):
+            profiles.append({
+                "network": "ByteDance, Seed",
+                "username": "",
+                "url": author.get('employer')
+            })
         
         # Academic profiles
         if author.get('googlescholar'):
