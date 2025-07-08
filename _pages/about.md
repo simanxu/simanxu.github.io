@@ -1,11 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Jiafeng Xu"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+I am currently an algorithm researcher at ByteDance [Seed-Robotics](https://seed.bytedance.com/zh/), where my research focuses on robotic reinforcement learning, learning based robot manipulation and locomotion, and unified control frameworks for robots. Previously, I worked as an algorithm researcher at [Tencent Robotics X](https://roboticsx.tencent.com/#/), with research interests in robot motion control and planning, high-dynamic motion planning, and dynamic parameter identification for robotic systems. I hold both a bachelor’s and a master’s degree from the Beijing Advanced Innovation Center for Intelligent Robots and Systems at [Beijing Institute of Technology](https://www.bit.edu.cn/), where I was supervised by Professors [Zhihong Jiang](https://pure.bit.edu.cn/en/persons/zhihong-jiang) and [Qiang Huang](https://pure.bit.edu.cn/en/persons/qiang-huang).
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
