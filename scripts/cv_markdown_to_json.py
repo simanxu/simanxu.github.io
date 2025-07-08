@@ -98,7 +98,11 @@ def extract_author_info(config):
         
         # Add employer as part of summary
         if author.get('employer'):
-            author_info['summary'] = f"Currently employed at {author.get('employer')}"
+            profiles.append({
+                "network": "ByteDance-Seed",
+                "username": "",
+                "url": author.get('employer')
+            })
         
         # Add bio to summary if available
         if author.get('bio'):
