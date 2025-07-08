@@ -27,7 +27,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Roboticist"
   location         : "Beijing, China"
-  employer         :"<a href='https://seed.bytedance.com/en/' target='_blank' rel='noopener noreferrer' style='white-space: nowrap;'>ByteDance-Seed</a>"
+  employer         : "ByteDance-Seed"
+  employer_url     : "https://seed.bytedance.com/en/"
   uri              : # URL
   email            : "chnjiafengxu@gmail.com" 
 
