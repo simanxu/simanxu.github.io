@@ -76,11 +76,6 @@ class: page-publications
                     <i class="fas fa-presentation-screen"></i>
                   </a>
                 {% endif %}
-                {% if pub.award %}
-                  <div class="publication-award">
-                    <i class="fas fa-trophy"></i> {{ pub.award }}
-                  </div>
-                {% endif %}
               </span>
             </h3>
             <div class="publication-meta">
@@ -93,6 +88,11 @@ class: page-publications
                 {% if pub.doi %} | DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>{% endif %}
               </div>
             </div>
+            {% if pub.award %}
+              <div class="publication-award">
+                <strong>{{ pub.award }}</strong>
+              </div>
+            {% endif %}
 
             <!-- 显示分类标签 -->
             <!-- {% if pub.category %}
