@@ -3,7 +3,7 @@ title: "Unleashing large-scale video generative pre-training for visual robot ma
 authors: |
   Hongtao Wu, Ya Jing, Chilam Cheang, Guangzeng Chen, **Jiafeng Xu**, *et al.*
 venue: "ICLR 2024"
-category: Robot Learning, Manipulation, Locomotion
+category: Manipulation, Locomotion, Robot Learning
 year: 2023-12-20
 doi: "https://doi.org/10.48550/arXiv.2312.13139"
 pdf: "2023-12-20 unleashing.pdf"
