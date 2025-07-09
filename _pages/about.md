@@ -11,7 +11,7 @@ I am currently a robotics researcher at ByteDance [Seed-Robotics](https://seed.b
 
 I am deeply passionate about robotics, with my career consistently centered on robot control and planning. During my tenure at Tencent, I concentrated on real-time control and planning grounded in dynamics and numerical optimization. At ByteDance, I have conducted in-depth research on end-to-end control methods for large-scale neural networks trained using supervised learning and reinforcement learning. My long-term ambition is to develop general-purpose embodied robots with human-like intelligence, enabling robots to seamlessly integrate into human production and daily life, and ultimately drive meaningful progress in human society.
 
-Contact Me: If you are interested in collaborating with me or discussing any research questions, please feel free to drop me an email.
+**Contact Me:** If you are interested in collaborating with me or discussing any research questions, please feel free to drop me an email.
 
 Research Interests
 ======
