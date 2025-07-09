@@ -90,7 +90,12 @@ class: page-publications
             </div>
             {% if pub.award %}
               <div class="publication-award">
-                <strong>{{ pub.award }}</strong>
+                <i class="fas fa-trophy"></i>
+                {% if pub.award.size %}
+                  {{ pub.award | join: ", " }}
+                {% else %}
+                  {{ pub.award }}
+                {% endif %}
               </div>
             {% endif %}
 
