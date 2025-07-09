@@ -6,6 +6,6 @@ venue: "ISR 2018"
 category: Optimal Control
 year: 2018-8-24
 doi: "10.1109/IISR.2018.8535762"
-pdf: "2018-8-24 trajectory.pdf"
+# pdf: "2018-8-24 trajectory.pdf"
 award: "Best Paper Finalist, IEEE ISR 2018"
 ---
