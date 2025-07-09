@@ -3,7 +3,7 @@ title: "Locomotion generation for quadruped robots on challenging terrains via q
 authors: |
   Xinyang Jiang, Wanchao Chi, Yu Zheng, Shenghao Zhang, Yonggen Ling, **Jiafeng Xu**, Zhengyou Zhang
 venue: "Autonomous Robots"
-category: Locomotion, Optimal Control
+category: Optimal Control
 year: 2022-10-18
 doi: "https://doi.org/10.1007/s10514-022-10068-3"
 pdf: "2022-10-18 locomotion.pdf"
