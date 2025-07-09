@@ -6,5 +6,5 @@ venue: "IEEE Transactions on Robotics"
 category: Optimal Control, Humanoid
 year: 2019-9-20
 doi: "10.1109/TRO.2019.2936302"
-pdf: "2019-9-20 stable.pdf"
+# pdf: "2019-9-20 stable.pdf"
 ---
