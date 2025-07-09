@@ -3,7 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
-class: page-publications  
+class: page-publications
 ---
 
 {% if site.author.googlescholar %}
@@ -19,7 +19,7 @@ class: page-publications
 <div class="publications-page">
   <!-- 按类别分组的出版物列表 -->
   {% assign grouped_pubs = pubs | group_by: 'category' | sort: 'name' %}
-  
+
   {% for group in grouped_pubs %}
     {% assign category_id = group.name | slugify %}
     <div class="publication-category" id="category-{{ category_id }}">
@@ -27,11 +27,11 @@ class: page-publications
         {{ group.name | default: "Other Publications" }}
         <!-- <span class="publication-count">({{ group.size }})</span> -->
       </h2>
-      
+
       <div class="publications-list">
         {% for pub in group.items %}
-          <section class="publication-item" 
-                   data-year="{{ pub.year }}" 
+          <section class="publication-item"
+                   data-year="{{ pub.year }}"
                    data-category="{{ category_id }}"
                    data-title="{{ pub.title | downcase }}"
                    data-authors="{{ pub.authors | downcase }}"
@@ -45,36 +45,41 @@ class: page-publications
                   </a>
                 {% endif %}
                 {% if pub.code %}
-                  <a href="{{ pub.code }}" 
-                    target="_blank" 
-                    class="resource-icon code-icon" 
+                  <a href="{{ pub.code }}"
+                    target="_blank"
+                    class="resource-icon code-icon"
                     title="View Code">
                     <i class="fab fa-github"></i>
                   </a>
                 {% endif %}
                 {% if pub.video %}
-                  <a href="{{ pub.video }}" 
-                    target="_blank" 
-                    class="resource-icon video-icon" 
+                  <a href="{{ pub.video }}"
+                    target="_blank"
+                    class="resource-icon video-icon"
                     title="View Video">
                     <i class="fas fa-video"></i>
                   </a>
                 {% endif %}
                 {% if pub.data %}
-                  <a href="{{ pub.data }}" 
-                    target="_blank" 
-                    class="resource-icon data-icon" 
+                  <a href="{{ pub.data }}"
+                    target="_blank"
+                    class="resource-icon data-icon"
                     title="View Data">
                     <i class="fas fa-database"></i>
                   </a>
                 {% endif %}
                 {% if pub.slides %}
-                  <a href="{{ pub.slides }}" 
-                    target="_blank" 
-                    class="resource-icon slides-icon" 
+                  <a href="{{ pub.slides }}"
+                    target="_blank"
+                    class="resource-icon slides-icon"
                     title="View Slides">
                     <i class="fas fa-presentation-screen"></i>
                   </a>
+                {% endif %}
+                {% if pub.award %}
+                  <div class="publication-award">
+                    <i class="fas fa-trophy"></i> {{ pub.award }}
+                  </div>
                 {% endif %}
               </span>
             </h3>
@@ -88,7 +93,7 @@ class: page-publications
                 {% if pub.doi %} | DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>{% endif %}
               </div>
             </div>
-            
+
             <!-- 显示分类标签 -->
             <!-- {% if pub.category %}
               <div class="publication-category-tag">
@@ -127,15 +132,15 @@ document.addEventListener('DOMContentLoaded', function() {
   const categoryButtons = document.querySelectorAll('.category-btn');
   const publicationItems = document.querySelectorAll('.publication-item');
   const publicationCategories = document.querySelectorAll('.publication-category');
-  
+
   categoryButtons.forEach(button => {
     button.addEventListener('click', function() {
       // 更新按钮状态
       categoryButtons.forEach(btn => btn.classList.remove('active'));
       this.classList.add('active');
-      
+
       const category = this.dataset.category;
-      
+
       // 显示/隐藏出版物
       publicationItems.forEach(item => {
         if (category === 'all' || item.dataset.category === category) {
@@ -144,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
           item.style.display = 'none';
         }
       });
-      
+
       // 显示/隐藏分类标题
       publicationCategories.forEach(cat => {
         if (category === 'all') {
@@ -160,21 +165,21 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
-  
+
   // 搜索功能
   const searchInput = document.getElementById('publication-search');
-  
+
   searchInput.addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase().trim();
-    
+
     publicationItems.forEach(item => {
       const title = item.dataset.title;
       const authors = item.dataset.authors;
       const venue = item.dataset.venue;
-      
-      if (searchTerm === '' || 
-          title.includes(searchTerm) || 
-          authors.includes(searchTerm) || 
+
+      if (searchTerm === '' ||
+          title.includes(searchTerm) ||
+          authors.includes(searchTerm) ||
           venue.includes(searchTerm)) {
         item.style.display = 'block';
       } else {
@@ -182,7 +187,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
-  
+
   // 初始显示所有出版物
   publicationItems.forEach(item => item.style.display = 'block');
 });
@@ -229,7 +234,7 @@ document.addEventListener('DOMContentLoaded', function() {
   font-size: 0.9rem;
   transition: all 0.2s;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-  
+
   &.active, &:hover {
     background: #4299e1;
     color: white;
@@ -242,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function() {
   flex: 1;
   min-width: 300px;
   position: relative;
-  
+
   input {
     width: 100%;
     padding: 0.8rem 1rem 0.8rem 40px;
@@ -250,14 +255,14 @@ document.addEventListener('DOMContentLoaded', function() {
     border-radius: 30px;
     font-size: 1rem;
     transition: all 0.3s;
-    
+
     &:focus {
       outline: none;
       border-color: #4299e1;
       box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
     }
   }
-  
+
   .fa-search {
     position: absolute;
     left: 15px;
@@ -304,7 +309,7 @@ document.addEventListener('DOMContentLoaded', function() {
   color: #2b6cb0;
   font-size: 0.85rem;
   border: 1px solid #c3dafe;
-  
+
   i {
     margin-right: 0.4rem;
     color: #4299e1;
@@ -318,11 +323,11 @@ document.addEventListener('DOMContentLoaded', function() {
     align-items: stretch;
     gap: 1.5rem;
   }
-  
+
   .category-buttons {
     justify-content: center;
   }
-  
+
   .search-box {
     min-width: 100%;
   }
@@ -332,18 +337,18 @@ document.addEventListener('DOMContentLoaded', function() {
   .category-buttons {
     gap: 0.5rem;
   }
-  
+
   .category-btn {
     padding: 0.5rem 1rem;
     font-size: 0.85rem;
   }
-  
+
   .category-title {
     font-size: 1.4rem;
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .publication-count {
     margin-left: 0;
     margin-top: 0.5rem;
@@ -370,12 +375,12 @@ document.addEventListener('DOMContentLoaded', function() {
   opacity: 0.8;
   text-decoration: none !important;
   position: relative;
-  
+
   &:hover {
     opacity: 1;
     transform: scale(1.1);
   }
-  
+
   // 悬停提示
   &::after {
     content: attr(title);
@@ -395,7 +400,7 @@ document.addEventListener('DOMContentLoaded', function() {
     z-index: 100;
     pointer-events: none;
   }
-  
+
   &:hover::after {
     opacity: 1;
     visibility: visible;
@@ -403,24 +408,24 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 /* 特定图标样式 */
-.pdf-link { 
-  background-color: #e53e3e; 
+.pdf-link {
+  background-color: #e53e3e;
   &:hover { background-color: #c53030; }
 }
-.code-icon { 
-  background-color: #2d3748; 
+.code-icon {
+  background-color: #2d3748;
   &:hover { background-color: #1a202c; }
 }
-.video-icon { 
-  background-color: #805ad5; 
+.video-icon {
+  background-color: #805ad5;
   &:hover { background-color: #6b46c1; }
 }
-.data-icon { 
-  background-color: #3182ce; 
+.data-icon {
+  background-color: #3182ce;
   &:hover { background-color: #2b6cb0; }
 }
-.slides-icon { 
-  background-color: #38a169; 
+.slides-icon {
+  background-color: #38a169;
   &:hover { background-color: #2f855a; }
 }
 </style>
