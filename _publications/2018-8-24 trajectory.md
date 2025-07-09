@@ -3,7 +3,7 @@ title: "Trajectory Planning Based on Dual Torque Feedforward Control for Robot A
 authors: |
   Jiang Zhihong, **Xu Jiafeng**, Li Hui, Huang Qiang
 venue: "IEEE International Conference on Intelligence and Safety for Robotics (ISR)"
-category: Optimal Control
+category: Optimal Control, Motion Planning
 year: 2018
 doi: "10.1109/IISR.2018.8535762"
 # pdf: "2018-8-24 trajectory.pdf"
