@@ -1,5 +1,5 @@
 ---
-title: "Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation"
+title: "GR-1: Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation"
 collection: talks
 type: "Talk"
 permalink: /talks/gr1
