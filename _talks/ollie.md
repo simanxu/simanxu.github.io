@@ -4,6 +4,6 @@ collection: talks
 type: "Talk"
 permalink: /talks/wmp
 ---
-<img src="/images/wmp.png" alt="WMP">
+<img src="/images/ollie.png" alt="ollie">
 
-[Project website](https://wmp-loco.github.io/)
+[Project website](https://mp.weixin.qq.com/s/vG9Q5Bl_nuKNq_WXgSgwJQ)

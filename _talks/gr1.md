@@ -3,9 +3,7 @@ title: "Unleashing Large-Scale Video Generative Pre-training for Visual Robot Ma
 collection: talks
 type: "Talk"
 permalink: /talks/gr1
-location: "https://gr1-manipulation.github.io/"
 ---
+<img src="/images/gr1.png" alt="GR1">
 
-[Project website here](https://gr1-manipulation.github.io/)
-
-<img src="/images/homepage.png" alt="Academic">
+[Project website](https://gr1-manipulation.github.io/)

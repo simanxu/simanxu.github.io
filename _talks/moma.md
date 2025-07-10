@@ -4,5 +4,6 @@ collection: talks
 type: "Talk"
 permalink: /talks/moma
 ---
+<img src="/images/moma.png" alt="MOMA-Force">
 
-[Project website here](https://visual-force-imitation.github.io/)
+[Project website](https://visual-force-imitation.github.io/)

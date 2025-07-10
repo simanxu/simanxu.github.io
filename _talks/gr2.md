@@ -4,4 +4,6 @@ collection: talks
 type: "Tutorial"
 permalink: /talks/gr2
 ---
-[Project website here](https://gr2-manipulation.github.io/)
+<img src="/images/gr2.png" alt="GR2">
+
+[Project website](https://gr2-manipulation.github.io/)
