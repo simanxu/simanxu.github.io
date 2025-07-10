@@ -1,8 +1,8 @@
 ---
-title: "World Model-based Perception for Visual Legged Locomotion"
+title: "Ollie: Whole-body motion control of wheel-legged robot"
 collection: talks
 type: "Talk"
-permalink: /talks/wmp
+permalink: /talks/ollie
 ---
 <img src="/images/ollie.png" alt="ollie">
 
