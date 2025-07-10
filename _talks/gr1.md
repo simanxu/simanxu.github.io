@@ -5,6 +5,6 @@ type: "Talk"
 permalink: /talks/gr1
 ---
 
-<img src="images/homepage.png" alt="Academic Pages template example">
+<img src="/images/homepage.png" alt="Academic">
 
 [Project website here](https://gr1-manipulation.github.io/)
