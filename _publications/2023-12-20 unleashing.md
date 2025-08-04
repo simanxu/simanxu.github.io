@@ -1,5 +1,5 @@
 ---
-title: "Unleashing large-scale video generative pre-training for visual robot manipulation"
+title: "GR-1: Unleashing large-scale video generative pre-training for visual robot manipulation"
 authors: |
   Hongtao Wu, Ya Jing, Chilam Cheang, Guangzeng Chen, **Jiafeng Xu**, *et al.*
 venue: "The International Conference on Learning Representations (ICLR)"
