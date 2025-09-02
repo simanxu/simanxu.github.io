@@ -1,7 +1,7 @@
 ---
 title: "Real-time Inertial Parameter Identification of Floating-Base Robots Through Iterative Primitive Shape Division"
 authors: |
-  **Jiafeng Xu**, Yu Zheng, Xinyang Jiang, Sicheng Yang, *et al.*
+  **Jiafeng Xu**, Yu Zheng, Xinyang Jiang, Sicheng Yang, Lingzhu Xiang, Zhengyou Zhang
 venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 category: Optimal Control, Motion Planning
 year: 2022

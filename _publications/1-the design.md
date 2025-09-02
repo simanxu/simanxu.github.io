@@ -1,7 +1,7 @@
 ---
 title: "The Design and Development of an Anthropomorphic Worm-Gear Driven Robotic Hand: BIT-JOCKO"
 authors: |
-  Changjin Wang, Yao Sun, **Jiafeng Xu**, *et al.*
+  Changjin Wang, Yao Sun, **Jiafeng Xu**, Xingdong Liu, Xinbing Zhou, Xiaopeng Chen
 venue: "IEEE International Conference on Advanced Robotics and Mechatronics (ICARM)"
 category: Optimal Control, Motion Planning
 year: 2019

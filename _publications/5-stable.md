@@ -1,7 +1,7 @@
 ---
 title: "Stable parking control of a robot astronaut in a space station based on human dynamics"
 authors: |
-  Zhihong Jiang, **Jiafeng Xu**, Hui Li, Qiang Huang
+  Zhihong Jiang(tutor), **Jiafeng Xu**, Hui Li, Qiang Huang
 venue: "IEEE Transactions on Robotics"
 category: Optimal Control, Motion Planning
 year: 2019

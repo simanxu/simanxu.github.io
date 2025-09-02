@@ -1,7 +1,7 @@
 ---
 title: "Trajectory Planning Based on Dual Torque Feedforward Control for Robot Astronaut Safe Movement on Space Station"
 authors: |
-  Jiang Zhihong, **Xu Jiafeng**, Li Hui, Huang Qiang
+  Jiang Zhihong(tutor), **Xu Jiafeng**, Li Hui, Huang Qiang
 venue: "IEEE International Conference on Intelligence and Safety for Robotics (ISR)"
 category: Optimal Control, Motion Planning
 year: 2018

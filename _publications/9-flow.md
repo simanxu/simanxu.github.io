@@ -1,7 +1,7 @@
 ---
 title: "Flow-Based Policy for Online Reinforcement Learning"
 authors: |
-  Lei Lv, Yunfei Li, Yu Luo, Fuchun Sun, Tao Kong, **Jiafeng Xu**\*, *et al.*
+  Lei Lv, Yunfei Li, Yu Luo, Fuchun Sun, Tao Kong, **Jiafeng Xu**\*, Xiao Ma
 venue: "The Conference and Workshop on Neural Information Processing Systems (NeurIPS)"
 category: Manipulation, Locomotion, Robot Learning
 year: 2025

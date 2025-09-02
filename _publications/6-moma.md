@@ -1,7 +1,7 @@
 ---
 title: "MOMA-Force: Visual-Force Imitation for Real-World Mobile Manipulation"
 authors: |
-  Taozheng Yang, Ya Jing, Hongtao Wu, **Jiafeng Xu**(Equal Contribution), *et al.*
+  Taozheng Yang, Ya Jing, Hongtao Wu, **Jiafeng Xu**(Equal Contribution), Kuankuan Sima, Guangzeng Chen, Qie Sima, Tao Kong
 venue: "International Conference on Intelligent Robots and Systems (IROS)"
 category: Manipulation, Locomotion, Robot Learning
 year: 2023

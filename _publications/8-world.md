@@ -1,7 +1,7 @@
 ---
 title: "World Model-based Perception for Visual Legged Locomotion"
 authors: |
-  Hang Lai, Jiahang Cao, **Jiafeng Xu**\*, *et al.*
+  Hang Lai, Jiahang Cao, **Jiafeng Xu**\*, Hongtao Wu, Yunfeng Lin, Tao Kong, Yong Yu, Weinan Zhang
 venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 category: Manipulation, Locomotion, Robot Learning
 year: 2024
