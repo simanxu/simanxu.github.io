@@ -1,5 +1,5 @@
 ---
-title: "Seed GR-3"
+title: "ByteDance Seed GR-3 Technical Report"
 collection: talks
 type: "Tutorial"
 permalink: /talks/gr3
