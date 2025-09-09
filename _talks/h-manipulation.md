@@ -4,6 +4,6 @@ collection: talks
 type: "Tutorial"
 permalink: /talks/manipulation
 ---
-<img src="/images/manipulation.pdf" alt="Manipulation">
+<img src="/images/manipulation.jpg" alt="Manipulation">
 
 [Project website](https://manipulation-as-in-simulation.github.io/#)
