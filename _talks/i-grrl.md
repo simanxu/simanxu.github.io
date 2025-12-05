@@ -4,6 +4,6 @@ collection: talks
 type: "Tutorial"
 permalink: /talks/grrl
 ---
-<img src="/images/grrl.png" alt="GRRL">
+<img src="/images/grrl.jpg" alt="GRRL">
 
 [Project website](https://seed.bytedance.com/en/gr_rl)
