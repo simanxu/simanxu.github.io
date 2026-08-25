@@ -5,7 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jiafeng Xu - ByteDance Seed Robotics</title>
-	<meta name="description" content="Jiafeng Xu, robotics researcher at ByteDance Seed-Robotics. Robot manipulation, legged locomotion, reinforcement learning, optimal control and system identification.">
+	<meta name="description"
+		content="Jiafeng Xu, robotics researcher at ByteDance Seed-Robotics. Robot manipulation, reinforcement learning, legged locomotion, optimal control and system identification.">
 	<meta name="author" content="Jiafeng Xu">
 	<link rel="icon" href="images/favicon.ico">
 	<link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192x192.png">
@@ -284,6 +285,9 @@
 
 		.pub .teaser img {
 			width: 100%;
+			max-height: 150px;
+			object-fit: contain;
+			background: #fbfbfc;
 			border: 1px solid #e4e4e4;
 			border-radius: 3px;
 			display: block;
@@ -437,6 +441,10 @@
 				max-width: 260px;
 			}
 
+			.pub .teaser img {
+				max-height: 240px;
+			}
+
 			.nav-links {
 				gap: 13px;
 				font-size: 14px;
@@ -480,29 +488,38 @@
 						control</span>
 				</div>
 				<div class="social">
-					<a href="https://scholar.google.com/citations?user=GPmUxtIAAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">
+					<a href="https://scholar.google.com/citations?user=GPmUxtIAAAAJ&hl=en" target="_blank"
+						rel="noopener" title="Google Scholar" aria-label="Google Scholar">
 						<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-							<path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z" />
+							<path
+								d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z" />
 						</svg>
 					</a>
-					<a href="https://github.com/simanxu" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+					<a href="https://github.com/simanxu" target="_blank" rel="noopener" title="GitHub"
+						aria-label="GitHub">
 						<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-							<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+							<path
+								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
 						</svg>
 					</a>
 					<a href="mailto:chnjiafengxu@gmail.com" title="Email" aria-label="Email">
 						<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-							<path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+							<path
+								d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
 						</svg>
 					</a>
-					<a href="https://orcid.org/0000-0003-3596-6991" target="_blank" rel="noopener" title="ORCID" aria-label="ORCID">
+					<a href="https://orcid.org/0000-0003-3596-6991" target="_blank" rel="noopener" title="ORCID"
+						aria-label="ORCID">
 						<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-							<path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 17.5H5.822V7.91h1.547V17.5zM6.595 6.847a.99.99 0 1 1 0-1.98.99.99 0 0 1 0 1.98zm5.31 10.653H9.13V7.91h3.03c2.887 0 4.152 2.063 4.152 4.8 0 2.97-1.855 4.79-4.407 4.79zm-.128-8.204h-1.101v6.818h1.148c2.05 0 2.99-1.383 2.99-3.404 0-1.93-.87-3.414-3.037-3.414z" />
+							<path
+								d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 17.5H5.822V7.91h1.547V17.5zM6.595 6.847a.99.99 0 1 1 0-1.98.99.99 0 0 1 0 1.98zm5.31 10.653H9.13V7.91h3.03c2.887 0 4.152 2.063 4.152 4.8 0 2.97-1.855 4.79-4.407 4.79zm-.128-8.204h-1.101v6.818h1.148c2.05 0 2.99-1.383 2.99-3.404 0-1.93-.87-3.414-3.037-3.414z" />
 						</svg>
 					</a>
-					<a href="https://www.linkedin.com/in/jiafeng-xu-655232306/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+					<a href="https://www.linkedin.com/in/jiafeng-xu-655232306/" target="_blank" rel="noopener"
+						title="LinkedIn" aria-label="LinkedIn">
 						<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-							<path d="M20.45 20.45h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.268 2.37 4.268 5.455v6.285zM5.337 7.433a2.062 2.062 0 0 1 0-4.125 2.063 2.063 0 0 1 0 4.125zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+							<path
+								d="M20.45 20.45h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.268 2.37 4.268 5.455v6.285zM5.337 7.433a2.062 2.062 0 0 1 0-4.125 2.063 2.063 0 0 1 0 4.125zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
 						</svg>
 					</a>
 				</div>
@@ -517,7 +534,8 @@
 			<hr class="rule">
 
 			<div id="about-en">
-				<p>I am currently a robotics researcher at ByteDance <a href="https://seed.bytedance.com/en/">Seed-Robotics</a>,
+				<p>I am currently a robotics researcher at ByteDance <a
+						href="https://seed.bytedance.com/en/">Seed-Robotics</a>,
 					where my research focuses on robotic reinforcement learning, learning-based robot manipulation and
 					locomotion, and unified control frameworks for robots. Previously, I worked as a researcher at
 					<a href="https://roboticsx.tencent.com/#/">Tencent Robotics X</a>, with research interests in robot
@@ -526,7 +544,8 @@
 					Advanced Innovation Center for Intelligent Robots and Systems at
 					<a href="https://www.bit.edu.cn/">Beijing Institute of Technology</a>, where I was supervised by
 					Professors <a href="https://pure.bit.edu.cn/en/persons/zhihong-jiang">Zhihong Jiang</a> and
-					<a href="https://pure.bit.edu.cn/en/persons/qiang-huang">Qiang Huang</a>.</p>
+					<a href="https://pure.bit.edu.cn/en/persons/qiang-huang">Qiang Huang</a>.
+				</p>
 				<p>I am deeply passionate about robotics, with my career consistently centered on robot control and
 					planning. During my tenure at Tencent, I concentrated on real-time control and planning grounded in
 					dynamics and numerical optimization. At ByteDance, I have conducted in-depth research on end-to-end
@@ -544,8 +563,10 @@
 					<a href="https://www.bit.edu.cn/">北京理工大学</a>
 					北京市智能机器人与系统高精尖创新中心获得学士与硕士学位，师从
 					<a href="https://pure.bit.edu.cn/en/persons/zhihong-jiang">蒋志宏</a> 教授与
-					<a href="https://pure.bit.edu.cn/en/persons/qiang-huang">黄强</a> 教授。</p>
-				<p>我对机器人有着长期的热情，职业生涯始终围绕机器人控制与规划展开。在腾讯期间，我专注于基于动力学建模与数值优化的实时控制与规划；在字节跳动，我深入研究了以监督学习和强化学习训练的大规模神经网络的端到端控制方法。我的长期目标是打造具备类人智能的通用具身机器人，让机器人真正融入人类的生产与日常生活，并最终为人类社会带来有意义的进步。</p>
+					<a href="https://pure.bit.edu.cn/en/persons/qiang-huang">黄强</a> 教授。
+				</p>
+				<p>我对机器人有着长期的热情，职业生涯始终围绕机器人控制与规划展开。在腾讯期间，我专注于基于动力学建模与数值优化的实时控制与规划；在字节跳动，我深入研究了以监督学习和强化学习训练的大规模神经网络的端到端控制方法。我的长期目标是打造具备类人智能的通用具身机器人，让机器人真正融入人类的生产与日常生活，并最终为人类社会带来有意义的进步。
+				</p>
 			</div>
 
 			<h3>Research Interests</h3>
@@ -562,7 +583,8 @@
 
 			<p class="contact-note"><b>Contact me:</b> if you are interested in collaborating or discussing any research
 				question, feel free to drop me an email at
-				<a href="mailto:chnjiafengxu@gmail.com">chnjiafengxu@gmail.com</a>.</p>
+				<a href="mailto:chnjiafengxu@gmail.com">chnjiafengxu@gmail.com</a>.
+			</p>
 		</section>
 
 		<!-- ============ news ============ -->
@@ -577,29 +599,35 @@
 					robotic wrist for confined-space manipulation, is released.</li>
 				<li><span class="date">[2025/09]</span>
 					<a href="https://manipulation-as-in-simulation.github.io/">Manipulation as in Simulation</a> is
-					released.</li>
+					released.
+				</li>
 				<li><span class="date">[2025/09]</span> <a href="https://github.com/bytedance/FlowRL">Flow-Based
 						Policy for Online Reinforcement Learning</a> is accepted to NeurIPS 2025.</li>
 				<li><span class="date">[2025/07]</span> <a href="https://seed.bytedance.com/zh/GR3">GR-3</a> technical
 					report is released.</li>
 				<li>
-				<details class="more">
-					<summary><b>show more</b></summary>
-					<ul class="news">
-					<li><span class="date">[2024/10]</span> <a href="https://gr2-manipulation.github.io/">GR-2</a>, a
-						generative video-language-action model with web-scale knowledge, is released.</li>
-					<li><span class="date">[2024/09]</span> <a href="https://wmp-loco.github.io/">WMP</a>: world
-						model-based perception for visual legged locomotion is released, with
-						<a href="https://github.com/bytedance/WMP">code</a> open-sourced.</li>
-					<li><span class="date">[2023/12]</span> <a href="https://gr1-manipulation.github.io/">GR-1</a> is
-						released, with <a href="https://github.com/bytedance/GR-1">code</a> open-sourced.</li>
-					<li><span class="date">[2023/10]</span>
-						<a href="https://visual-force-imitation.github.io/">MOMA-Force</a> is presented at IROS 2023.
-					</li>
-					<li><span class="date">[2022/05]</span> Real-time inertial parameter identification of floating-base
-						robots is presented at ICRA 2022.</li>
-					</ul>
-				</details>
+					<details class="more">
+						<summary><b>show more</b></summary>
+						<ul class="news">
+							<li><span class="date">[2024/10]</span> <a
+									href="https://gr2-manipulation.github.io/">GR-2</a>, a
+								generative video-language-action model with web-scale knowledge, is released.</li>
+							<li><span class="date">[2024/09]</span> <a href="https://wmp-loco.github.io/">WMP</a>: world
+								model-based perception for visual legged locomotion is released, with
+								<a href="https://github.com/bytedance/WMP">code</a> open-sourced.
+							</li>
+							<li><span class="date">[2023/12]</span> <a
+									href="https://gr1-manipulation.github.io/">GR-1</a> is
+								released, with <a href="https://github.com/bytedance/GR-1">code</a> open-sourced.</li>
+							<li><span class="date">[2023/10]</span>
+								<a href="https://visual-force-imitation.github.io/">MOMA-Force</a> is presented at IROS
+								2023.
+							</li>
+							<li><span class="date">[2022/05]</span> Real-time inertial parameter identification of
+								floating-base
+								robots is presented at ICRA 2022.</li>
+						</ul>
+					</details>
 				</li>
 			</ul>
 		</section>
@@ -610,14 +638,17 @@
 			<hr class="rule">
 			<p style="font-size:15px;color:#666;margin-bottom:2px;">For a full and up-to-date list, please see my
 				<a href="https://scholar.google.com/citations?user=GPmUxtIAAAAJ&hl=en">Google Scholar</a>.
-				(*: equal contribution)</p>
+				(*: equal contribution)
+			</p>
 
 			<h3>Technical Reports</h3>
 
 			<div class="pub">
-				<div class="teaser"><a href="https://seed.bytedance.com/en/gr_rl"><img src="images/teaser/grrl.jpg" alt="GR-RL"></a></div>
+				<div class="teaser"><a href="https://seed.bytedance.com/en/gr_rl"><img src="images/teaser/grrl.jpg"
+							alt="GR-RL"></a></div>
 				<div>
-					<div class="pub-title">GR-RL: Going Dexterous and Precise for Long-Horizon Robotic Manipulation</div>
+					<div class="pub-title">GR-RL: Going Dexterous and Precise for Long-Horizon Robotic Manipulation
+					</div>
 					<div class="venue">Technical Report, ByteDance Seed Robotics, 2025</div>
 					<div class="links">[<a href="files/2025-12-2%20grrl.pdf">PDF</a>]
 						[<a href="https://doi.org/10.48550/arXiv.2512.01801">arXiv</a>]
@@ -626,9 +657,8 @@
 			</div>
 
 			<div class="pub">
-				<div class="teaser"><a href="https://bytewrist.github.io/">
-						<div class="ph">ByteWrist<br>2025</div>
-					</a></div>
+				<div class="teaser"><a href="https://bytewrist.github.io/"><img src="images/teaser/bytewrist.jpg"
+							alt="ByteWrist"></a></div>
 				<div>
 					<div class="pub-title">ByteWrist: A Parallel Robotic Wrist Enabling Flexible and Anthropomorphic
 						Motion for Confined Spaces</div>
@@ -636,15 +666,18 @@
 					<div class="links">[<a href="files/2025-9-22%20bytewrist.pdf">PDF</a>]
 						[<a href="https://doi.org/10.48550/arXiv.2509.18084">arXiv</a>]
 						[<a href="https://bytewrist.github.io/">Website</a>]
-						[<a href="https://seed.bytedance.com/zh/public_papers/bytewrist-a-parallel-robotic-wrist-enabling-flexible-and-anthropomorphic-motion-for-confined-spaces?view_from=research">Seed</a>]
+						[<a
+							href="https://seed.bytedance.com/zh/public_papers/bytewrist-a-parallel-robotic-wrist-enabling-flexible-and-anthropomorphic-motion-for-confined-spaces?view_from=research">Seed</a>]
 					</div>
 				</div>
 			</div>
 
 			<div class="pub">
-				<div class="teaser"><a href="https://manipulation-as-in-simulation.github.io/"><img src="images/teaser/manipulation.jpg" alt="Manipulation as in Simulation"></a></div>
+				<div class="teaser"><a href="https://manipulation-as-in-simulation.github.io/"><img
+							src="images/teaser/manipulation.jpg" alt="Manipulation as in Simulation"></a></div>
 				<div>
-					<div class="pub-title">Manipulation as in Simulation: Enabling Accurate Geometry Perception in Robots
+					<div class="pub-title">Manipulation as in Simulation: Enabling Accurate Geometry Perception in
+						Robots
 					</div>
 					<div class="venue">Technical Report, ByteDance Seed Robotics, 2025</div>
 					<div class="links">[<a href="files/2025-9-3%20manipulation.pdf">PDF</a>]
@@ -654,7 +687,8 @@
 			</div>
 
 			<div class="pub">
-				<div class="teaser"><a href="https://seed.bytedance.com/zh/GR3"><img src="images/teaser/gr3.jpg" alt="GR-3"></a></div>
+				<div class="teaser"><a href="https://seed.bytedance.com/zh/GR3"><img src="images/teaser/gr3.jpg"
+							alt="GR-3"></a></div>
 				<div>
 					<div class="pub-title">GR-3 Technical Report</div>
 					<div class="venue">Technical Report, ByteDance Seed Robotics, 2025</div>
@@ -665,7 +699,8 @@
 			</div>
 
 			<div class="pub">
-				<div class="teaser"><a href="https://gr2-manipulation.github.io/"><img src="images/teaser/gr2.jpg" alt="GR-2"></a></div>
+				<div class="teaser"><a href="https://gr2-manipulation.github.io/"><img src="images/teaser/gr2.jpg"
+							alt="GR-2"></a></div>
 				<div>
 					<div class="pub-title">GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for
 						Robot Manipulation</div>
@@ -679,9 +714,8 @@
 			<h3>Conference &amp; Journal Papers</h3>
 
 			<div class="pub">
-				<div class="teaser"><a href="https://github.com/bytedance/FlowRL">
-						<div class="ph">NeurIPS<br>2025</div>
-					</a></div>
+				<div class="teaser"><a href="https://github.com/bytedance/FlowRL"><img src="images/teaser/flowrl.jpg"
+							alt="Flow-Based Policy for Online RL"></a></div>
 				<div>
 					<div class="pub-title">Flow-Based Policy for Online Reinforcement Learning</div>
 					<div class="authors">Lei Lv, Yunfei Li, Yu Luo, Fuchun Sun, Tao Kong, <b>Jiafeng Xu</b>*, Xiao Ma
@@ -694,7 +728,8 @@
 			</div>
 
 			<div class="pub">
-				<div class="teaser"><a href="https://wmp-loco.github.io/"><img src="images/teaser/wmp.jpg" alt="WMP"></a>
+				<div class="teaser"><a href="https://wmp-loco.github.io/"><img src="images/teaser/wmp.jpg"
+							alt="WMP"></a>
 				</div>
 				<div>
 					<div class="pub-title">World Model-based Perception for Visual Legged Locomotion</div>
@@ -709,7 +744,8 @@
 			</div>
 
 			<div class="pub">
-				<div class="teaser"><a href="https://gr1-manipulation.github.io/"><img src="images/teaser/gr1.jpg" alt="GR-1"></a></div>
+				<div class="teaser"><a href="https://gr1-manipulation.github.io/"><img src="images/teaser/gr1.jpg"
+							alt="GR-1"></a></div>
 				<div>
 					<div class="pub-title">GR-1: Unleashing Large-Scale Video Generative Pre-training for Visual Robot
 						Manipulation</div>
@@ -724,10 +760,12 @@
 			</div>
 
 			<div class="pub">
-				<div class="teaser"><a href="https://visual-force-imitation.github.io/"><img src="images/teaser/moma.jpg" alt="MOMA-Force"></a></div>
+				<div class="teaser"><a href="https://visual-force-imitation.github.io/"><img
+							src="images/teaser/moma.jpg" alt="MOMA-Force"></a></div>
 				<div>
 					<div class="pub-title">MOMA-Force: Visual-Force Imitation for Real-World Mobile Manipulation</div>
-					<div class="authors">Taozheng Yang, Ya Jing, Hongtao Wu, <b>Jiafeng Xu</b>*, Kuankuan Sima, Guangzeng
+					<div class="authors">Taozheng Yang, Ya Jing, Hongtao Wu, <b>Jiafeng Xu</b>*, Kuankuan Sima,
+						Guangzeng
 						Chen, Qie Sima, Tao Kong</div>
 					<div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023
 					</div>
@@ -738,14 +776,15 @@
 			</div>
 
 			<div class="pub">
-				<div class="teaser"><a href="https://doi.org/10.1007/s10514-022-10068-3">
-						<div class="ph">Autonomous<br>Robots 2022</div>
-					</a></div>
+				<div class="teaser"><a href="https://doi.org/10.1007/s10514-022-10068-3"><img
+							src="images/teaser/locomotion.jpg" alt="Locomotion Generation for Quadruped Robots"></a>
+				</div>
 				<div>
 					<div class="pub-title">Locomotion Generation for Quadruped Robots on Challenging Terrains via
 						Quadratic Programming</div>
 					<div class="authors">Xinyang Jiang, Wanchao Chi, Yu Zheng, Shenghao Zhang, Yonggen Ling,
-						<b>Jiafeng Xu</b>, Zhengyou Zhang</div>
+						<b>Jiafeng Xu</b>, Zhengyou Zhang
+					</div>
 					<div class="venue">Autonomous Robots, 2022</div>
 					<div class="links">[<a href="files/2022-10-18%20locomotion.pdf">PDF</a>]
 						[<a href="https://doi.org/10.1007/s10514-022-10068-3">DOI</a>]</div>
@@ -753,9 +792,9 @@
 			</div>
 
 			<div class="pub">
-				<div class="teaser"><a href="https://doi.org/10.1109/ICRA46639.2022.9812214">
-						<div class="ph">ICRA<br>2022</div>
-					</a></div>
+				<div class="teaser"><a href="https://doi.org/10.1109/ICRA46639.2022.9812214"><img
+							src="images/teaser/realtime.jpg" alt="Real-time Inertial Parameter Identification"></a>
+				</div>
 				<div>
 					<div class="pub-title">Real-time Inertial Parameter Identification of Floating-Base Robots Through
 						Iterative Primitive Shape Division</div>
@@ -768,9 +807,8 @@
 			</div>
 
 			<div class="pub">
-				<div class="teaser"><a href="https://doi.org/10.1109/TRO.2019.2936302">
-						<div class="ph">IEEE T-RO<br>2019</div>
-					</a></div>
+				<div class="teaser"><a href="https://doi.org/10.1109/TRO.2019.2936302"><img
+							src="images/teaser/parking.jpg" alt="Stable Parking Control of a Robot Astronaut"></a></div>
 				<div>
 					<div class="pub-title">Stable Parking Control of a Robot Astronaut in a Space Station Based on Human
 						Dynamics</div>
@@ -819,48 +857,57 @@
 			<hr class="rule">
 			<div class="projects">
 				<div class="card">
-					<a href="https://seed.bytedance.com/en/gr_rl" target="_blank" rel="noopener"><img src="images/teaser/grrl.jpg" alt="GR-RL"></a>
+					<a href="https://seed.bytedance.com/en/gr_rl" target="_blank" rel="noopener"><img
+							src="images/teaser/grrl.jpg" alt="GR-RL"></a>
 					<div class="name"><a href="https://seed.bytedance.com/en/gr_rl">GR-RL</a></div>
 					<div class="blurb">Dexterous and precise long-horizon manipulation with RL.</div>
 				</div>
 				<div class="card">
-					<a href="https://manipulation-as-in-simulation.github.io/" target="_blank" rel="noopener"><img src="images/teaser/manipulation.jpg" alt="Manipulation as in Simulation"></a>
+					<a href="https://manipulation-as-in-simulation.github.io/" target="_blank" rel="noopener"><img
+							src="images/teaser/manipulation.jpg" alt="Manipulation as in Simulation"></a>
 					<div class="name"><a href="https://manipulation-as-in-simulation.github.io/">Manipulation as in
 							Simulation</a></div>
 					<div class="blurb">Accurate geometry perception for real-robot manipulation.</div>
 				</div>
 				<div class="card">
-					<a href="https://seed.bytedance.com/zh/GR3" target="_blank" rel="noopener"><img src="images/teaser/gr3.jpg" alt="GR-3"></a>
+					<a href="https://seed.bytedance.com/zh/GR3" target="_blank" rel="noopener"><img
+							src="images/teaser/gr3.jpg" alt="GR-3"></a>
 					<div class="name"><a href="https://seed.bytedance.com/zh/GR3">GR-3</a></div>
 					<div class="blurb">A large-scale vision-language-action model for robots.</div>
 				</div>
 				<div class="card">
-					<a href="https://gr2-manipulation.github.io/" target="_blank" rel="noopener"><img src="images/teaser/gr2.jpg" alt="GR-2"></a>
+					<a href="https://gr2-manipulation.github.io/" target="_blank" rel="noopener"><img
+							src="images/teaser/gr2.jpg" alt="GR-2"></a>
 					<div class="name"><a href="https://gr2-manipulation.github.io/">GR-2</a></div>
 					<div class="blurb">Generative video-language-action model with web-scale knowledge.</div>
 				</div>
 				<div class="card">
-					<a href="https://wmp-loco.github.io/" target="_blank" rel="noopener"><img src="images/teaser/wmp.jpg" alt="WMP"></a>
+					<a href="https://wmp-loco.github.io/" target="_blank" rel="noopener"><img
+							src="images/teaser/wmp.jpg" alt="WMP"></a>
 					<div class="name"><a href="https://wmp-loco.github.io/">WMP</a></div>
 					<div class="blurb">World model-based perception for visual legged locomotion.</div>
 				</div>
 				<div class="card">
-					<a href="https://gr1-manipulation.github.io/" target="_blank" rel="noopener"><img src="images/teaser/gr1.jpg" alt="GR-1"></a>
+					<a href="https://gr1-manipulation.github.io/" target="_blank" rel="noopener"><img
+							src="images/teaser/gr1.jpg" alt="GR-1"></a>
 					<div class="name"><a href="https://gr1-manipulation.github.io/">GR-1</a></div>
 					<div class="blurb">Video generative pre-training for visual robot manipulation.</div>
 				</div>
 				<div class="card">
-					<a href="https://visual-force-imitation.github.io/" target="_blank" rel="noopener"><img src="images/teaser/moma.jpg" alt="MOMA-Force"></a>
+					<a href="https://visual-force-imitation.github.io/" target="_blank" rel="noopener"><img
+							src="images/teaser/moma.jpg" alt="MOMA-Force"></a>
 					<div class="name"><a href="https://visual-force-imitation.github.io/">MOMA-Force</a></div>
 					<div class="blurb">Visual-force imitation for real-world mobile manipulation.</div>
 				</div>
 				<div class="card">
-					<a href="https://mp.weixin.qq.com/s/WFV02xTj4Xl_n29WqTzpGQ" target="_blank" rel="noopener"><img src="images/teaser/max.jpg" alt="Max"></a>
+					<a href="https://mp.weixin.qq.com/s/WFV02xTj4Xl_n29WqTzpGQ" target="_blank" rel="noopener"><img
+							src="images/teaser/max.jpg" alt="Max"></a>
 					<div class="name"><a href="https://mp.weixin.qq.com/s/WFV02xTj4Xl_n29WqTzpGQ">Max</a></div>
 					<div class="blurb">High-dynamic quadruped robot (Tencent Robotics X).</div>
 				</div>
 				<div class="card">
-					<a href="https://mp.weixin.qq.com/s/vG9Q5Bl_nuKNq_WXgSgwJQ" target="_blank" rel="noopener"><img src="images/teaser/ollie.jpg" alt="Ollie"></a>
+					<a href="https://mp.weixin.qq.com/s/vG9Q5Bl_nuKNq_WXgSgwJQ" target="_blank" rel="noopener"><img
+							src="images/teaser/ollie.jpg" alt="Ollie"></a>
 					<div class="name"><a href="https://mp.weixin.qq.com/s/vG9Q5Bl_nuKNq_WXgSgwJQ">Ollie</a></div>
 					<div class="blurb">Whole-body motion control of a wheel-legged robot (Tencent Robotics X).</div>
 				</div>
